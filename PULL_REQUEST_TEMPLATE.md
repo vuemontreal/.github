@@ -1,16 +1,16 @@
-**PR Check list**
+### PR check list
 <!-- ✍️
 - [x] Please check using "x" if your PR fulfills the following requirements -->
 - [ ] The title of the PR is formatted following [conventional commits](https://www.conventionalcommits.org/) format <!-- 
   ** PR/commit prefix reminder:
-    build: Changes that affect the build system or external dependencies (example scopes: npm, netlify, cypress)
-    ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
+    build: Changes that affect the build system or external dependencies (eg. scopes: npm, netlify, cypress)
+    ci: Changes to our CI configuration files and scripts (eg. scopes: github, netlify)
     docs: Documentation only changes
     feat: A new feature
     fix: A bug fix
     perf: A code change that improves performance
     refactor: A code change that neither fixes a bug nor adds a feature
-    style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+    style: Changes that do not affect the meaning of the code (white-space, formatting, etc)
     test: Adding missing tests or correcting existing tests -->
 - [ ] Tests for the changes have been added (for bug fixes / features)
 - [ ] Functionality has been verified and is ready to be code reviewed
